@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+        <h1 id="score">Score: 0</h1>
+        <h2 id="time">Time: 00:00</h2>
+        <h3 id="replays">Amount of replays: </h3>
+        <h4 id="questions-left">Questions: 0/8</h4>
+        </div>        
+        <hr>
+        <div class="controller">
+        <button class="play" id="start">Start</button>
+        <button class="replay-btn" id="replay">Replay</button>
+       
+        </div>  
+        
+        <div id="questions" style="display: none;">
+        <h1 id="question-text"></h1>
+        <div id="answer-buttons">
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+    </div>
+    <div class="quit-container">
+      <button class="quitbtn" id="quit">Quit</button>
+      </div>
+        </div>
+    </div>
+</body>
+</html>
