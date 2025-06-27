@@ -81,9 +81,9 @@ const questions = [
     wrong: ["Reiner Braun", "Eren Yeager", "Zeke Yeager"]
   },
   {
-    question: "What clan is Naruto Uzumaki's mother from?",
-    correct: "Uzumaki Clan",
-    wrong: ["Uchiha Clan", "Hyuga Clan", "Senju Clan"]
+    question: "What is L’s favorite food?",
+    correct: "Sweets",
+    wrong: ["Sushi", "Chips", "Apples"]
   },
   {
     question: "What triggers Rika's time loop in Higurashi?",
